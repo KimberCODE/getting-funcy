@@ -10,21 +10,25 @@ let firstName = 'Kimber';
 let callStatus = 'ringing';
 
 function double() {
-  return x + x;
+  x = x * 2;
 }
 function triple() {
-  return y * 3;
+  y = y * 3;
 }
 function square() {
-  return z * z;
+  z = z * z;
 }
 function beNice() {
-  return greeting + ' ' + firstName;
+  greeting = 'hello' + ' ' + firstName;
 }
-// function hangUp() {
-//   return callStatus['call ended'];
-// }
-// console.log(hangUp);
+function changeName() {
+  firstName = 'Danger';
+}
+function hangUp() {
+  callStatus = 'call ended';
+}
+
+// console.log(double());
 /*********************************************************************************************************************
 
  * CODE BELOW HERE IS FOR INTERNAL USE ONLY! IT ENSURES THAT THE TESTING *
